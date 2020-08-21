@@ -316,3 +316,8 @@ blocks:
         - name: KSQL masking data tests
           commands:
             - make -C _includes/tutorials/masking-data/ksql/code tutorial
+
+        - name: Kafka Consuming and Producing AVRO messages with console tools tests
+          commands:
+            - make -C _includes/tutorials/console-consumer-producer-avro/kafka/code tutorial
+            
